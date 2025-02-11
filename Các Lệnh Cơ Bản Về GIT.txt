@@ -1,0 +1,7 @@
+- git init: Giúp dự án sử dung duoc git
+- git status: thấy duoc thay doi cua dự án
+- git add: Chuẩn bị lưu lại thời diem cua dự án
+Neu muon Luu lại tất cả thì - git add .
+- git reset: hủy bỏ lưu
+- git commit: Chính thức lưu file - và phải kèm theo dặt tên VD: git commit -m 'initial commit'
+- git log: Coi lai thời diem dã lưu
