@@ -1,6 +1,6 @@
 - git init: Giúp dự án sử dung duoc git
 - git status: thấy duoc thay doi cua dự án
-- git add: Chuẩn bị lưu lại thời diem cua dự án
+- git add: Chuẩn bị lưu lại thời diem cua dự án											REPOSITORY (REPO) : THƯ MỤC DỰ ÁN
 Neu muon Luu lại tất cả thì - git add .
 - git reset: hủy bỏ lưu
 - git commit: Chính thức lưu file - và phải kèm theo dặt tên VD: git commit -m 'initial commit'
@@ -8,7 +8,21 @@ Neu muon Luu lại tất cả thì - git add .
 - git log --oneline : gọn hơn trên 1 dòng (ưu tiên xài)
 - git checkout: trở lại thời diem ban dau` - kèm theo id của config VD: git checkout 2e31004
 - git checkout {branch name} : quay ve hiện tại (git checkout master) -> master là cành mặc định 
-----------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+																				BRANCH :CÀNH
 - git branch : để xem dc cành mặc định master
 - git checkout -b {branch name}: để tạo 1 branch mới  VD: git checkout -b hungdoan (dung` git branch de ktra lai có bao nhiu branch đã tạo)
 - git merge {branch name}: Tổng hợp lại các branch
+-git branch -d {branch name}: Xóa branch VD: git branch -d dev
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+																				CONFLICT: XUNG ĐỘT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+KẾT HỢP GIT VÀ GITHUB
+1. LOCAL VÀ REMOTE
+Trường hợp 1: Từ Local đẩy lên Remote (Local là tất cả những gì trên máy tính: video, hình ảnh,... - Remote ngược lại là tất cả những gì không nằm trên máy tính nhưng lại nằm trên 1 server nào đó thì là Remote)
+
+Vào github tạo 1 repository - Tạo tên dự án giống y như folder ta bỏ vào visual code - Tạo xong ta copy đường link
+
+-git push: đẩy lên local repo của mình lên trên remote repo VD: git push https://github.com/Hungdoan565/HOCGIT.git master (ktra lại github sẽ thấy các file ta đã làm)
+còn 1 cách nữa là tạo cho đường link 1 cái tên sẽ giúp terminal gọn hơn: git remote add {tên tự đặt} + (đường link) https://github.com/Hungdoan565/HOCGIT.git
