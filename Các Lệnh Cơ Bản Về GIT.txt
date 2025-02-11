@@ -5,3 +5,10 @@ Neu muon Luu lại tất cả thì - git add .
 - git reset: hủy bỏ lưu
 - git commit: Chính thức lưu file - và phải kèm theo dặt tên VD: git commit -m 'initial commit'
 - git log: Coi lai thời diem dã lưu
+- git log --oneline : gọn hơn trên 1 dòng (ưu tiên xài)
+- git checkout: trở lại thời diem ban dau` - kèm theo id của config VD: git checkout 2e31004
+- git checkout {branch name} : quay ve hiện tại (git checkout master) -> master là cành mặc định 
+----------------------------------------------------------------------------------------------------------------------------------------
+- git branch : để xem dc cành mặc định master
+- git checkout -b {branch name}: để tạo 1 branch mới  VD: git checkout -b hungdoan (dung` git branch de ktra lai có bao nhiu branch đã tạo)
+- git merge {branch name}: Tổng hợp lại các branch
